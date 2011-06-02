@@ -1,5 +1,5 @@
 package Array::Functions::Undoable;
-# ABSTRACT: Array manipulation functions which supports undo operation
+# ABSTRACT: Array manipulation functions that support undo operation
 
 use 5.010;
 use strict;
