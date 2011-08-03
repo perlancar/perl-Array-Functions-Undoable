@@ -1,5 +1,4 @@
 package Array::Functions::Undoable;
-# ABSTRACT: Array manipulation functions that support undo operation
 
 use 5.010;
 use strict;
@@ -8,6 +7,8 @@ use warnings;
 require Exporter;
 our @ISA       = qw(Exporter);
 our @EXPORT_OK = qw(afu);
+
+# VERSION
 
 our %SPEC;
 
@@ -98,6 +99,7 @@ sub afu {
 }
 
 1;
+# ABSTRACT: Array manipulation functions that support undo operation
 __END__
 
 =head1 SYNOPSIS
