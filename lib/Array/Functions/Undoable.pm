@@ -143,8 +143,8 @@ __END__
 
 This module provides the usual array manipulation functionalities like for
 popping, pushing, splicing, but with undo capability. It is currently used just
-for testing the L<Sub::Spec> undo protocol and other Sub::Spec modules like
-L<Sub::Spec::Runner>.
+for testing the L<Rinci::function> undo protocol and L<Perinci> modules like
+L<Perinci::CmdLine>.
 
 
 =head1 FUNCTIONS
@@ -153,8 +153,6 @@ None of the functions are exported by default, but they are exportable.
 
 
 =head1 SEE ALSO
-
-L<Sub::Spec>
 
 =cut
 
